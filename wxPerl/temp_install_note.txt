@@ -1,0 +1,11 @@
+# Remarks or required corrections
+
+1- Alien wxWidget of not installed with default location
+
+make correct links in order to be recognized by wxPerl Makefile.PL
+
+2- others required PM to be installed as prerequisites :
+	ExtUtils::XSpp::Cmd
+	
+
+Both (1 and 2) done via cpan -i 
