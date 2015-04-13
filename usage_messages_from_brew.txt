@@ -1,0 +1,37 @@
+VM-DEV:~ bertrand$ brew install wget
+==> Installing wget dependency: openssl
+==> Downloading https://homebrew.bintray.com/bottles/openssl-1.0.2a-1.yosemite.bottle.tar.gz
+######################################################################## 100,0%
+==> Pouring openssl-1.0.2a-1.yosemite.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/openssl/lib
+    CPPFLAGS: -I/usr/local/opt/openssl/include
+
+==> Downloading https://www.geotrust.com/resources/root_certificates/certificates/Equifax_Secure_Certificate_Authority.pem
+######################################################################## 100,0%
+==> /usr/local/Cellar/openssl/1.0.2a-1/bin/c_rehash
+==> Summary
+🍺  /usr/local/Cellar/openssl/1.0.2a-1: 463 files, 18M
+==> Installing wget
+==> Downloading https://homebrew.bintray.com/bottles/wget-1.16.3.yosemite.bottle.tar.gz
+######################################################################## 100,0%
+==> Pouring wget-1.16.3.yosemite.bottle.tar.gz
+🍺  /usr/local/Cellar/wget/1.16.3: 9 files, 1,5M

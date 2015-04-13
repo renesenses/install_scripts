@@ -1,0 +1,2 @@
+# Bug http://goharsha.com/blog/compiling-wxwidgets-3-0-2-mac-os-x-yosemite/
+# need an update in src/osx/webview_webkit.mm line 31 must be : #include <WebKit/WebKitLegacy.h>

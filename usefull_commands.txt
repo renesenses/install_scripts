@@ -1,0 +1,4 @@
+$cpan> o conf init 
+
+# Teste la bonne installation du package (ne doit pas renvoyer de message)
+perl -MPackaheName -e 1 
