@@ -23,7 +23,6 @@ sudo cpan -i ExtUtils::MakeMaker
 sudo cpan -i ExtUtils::Manifest
 sudo cpan -i File::Basename
 sudo cpan -i File::Glob
-sudo cpan -i File::Glob::Windows
 sudo cpan -i File::Copy::Recursive
 sudo cpan -i File::Find::Rule
 sudo cpan -i File::HomeDir
@@ -83,9 +82,6 @@ sudo cpan -i threads
 sudo cpan -i threads::shared
 sudo cpan -i URI
 sudo cpan -i version
-sudo cpan -i Win32
-sudo cpan -i Win32::Shortcut
-sudo cpan -i Win32::TieRegistry
 sudo cpan -i Wx
 sudo cpan -i Wx::Perl::ProcessStream
 sudo cpan -i Wx::Scintilla
