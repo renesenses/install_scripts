@@ -3,7 +3,9 @@
 
 cd ~/GIT_REPO/install_scripts
 
-brew install wxWidget
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install wxWidgets
 brew install wget
 brew install gnutls
 brew install gnupg
@@ -19,5 +21,3 @@ install_makepatch.sh
 
 sudo cpan -i Alien::wxWidgets
 sudo cpan -i Wx
-
-cpan -o conf init 
