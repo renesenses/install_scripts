@@ -1,0 +1,795 @@
+CPAN: Storable loaded ok (v2.34)
+Reading '/Users/bertrand/.cpan/Metadata'
+  Database was generated on Tue, 14 Apr 2015 15:53:24 GMT
+Running install for module 'Padre'
+Running make for P/PL/PLAVEN/Padre-1.00.tar.gz
+CPAN: LWP::UserAgent loaded ok (v6.04)
+CPAN: Time::HiRes loaded ok (v1.9725)
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/P/PL/PLAVEN/Padre-1.00.tar.gz
+CPAN: YAML loaded ok (v1.14)
+CPAN: Digest::SHA loaded ok (v5.71)
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/P/PL/PLAVEN/CHECKSUMS
+CPAN: Compress::Zlib loaded ok (v2.048)
+Checksum for /Users/bertrand/.cpan/sources/authors/id/P/PL/PLAVEN/Padre-1.00.tar.gz ok
+CPAN: File::Temp loaded ok (v0.2304)
+CPAN: Parse::CPAN::Meta loaded ok (v1.4414)
+CPAN: CPAN::Meta loaded ok (v2.150001)
+CPAN: Module::CoreList loaded ok (v2.76)
+
+  CPAN.pm: Building P/PL/PLAVEN/Padre-1.00.tar.gz
+
+Found locale    fr_FR.UTF-8
+Found wxWidgets 3..2
+Found Wx.pm     0.9927
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Padre
+Writing MYMETA.yml and MYMETA.json
+---- Unsatisfied dependencies detected during ----
+----         PLAVEN/Padre-1.00.tar.gz         ----
+    Wx::Scintilla [requires]
+    Debug::Client [requires]
+Running make test
+  Delayed until after prerequisites
+Running make install
+  Delayed until after prerequisites
+Running install for module 'Wx::Scintilla'
+Running make for A/AZ/AZAWAWI/Wx-Scintilla-0.39.tar.gz
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/A/AZ/AZAWAWI/Wx-Scintilla-0.39.tar.gz
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/A/AZ/AZAWAWI/CHECKSUMS
+Checksum for /Users/bertrand/.cpan/sources/authors/id/A/AZ/AZAWAWI/Wx-Scintilla-0.39.tar.gz ok
+
+  CPAN.pm: Building A/AZ/AZAWAWI/Wx-Scintilla-0.39.tar.gz
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Wx-Scintilla' version '0.39'
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Accessor.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Accessor.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_AutoComplete.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/AutoComplete.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_CallTip.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/CallTip.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Catalogue.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Catalogue.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_CellBuffer.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/CellBuffer.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_CharacterSet.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/CharacterSet.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_CharClassify.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/CharClassify.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_ContractionState.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/ContractionState.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Decoration.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Decoration.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Document.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Document.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Editor.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Editor.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_ExternalLexer.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/ExternalLexer.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Indicator.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Indicator.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_KeyMap.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/KeyMap.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexA68k.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexA68k.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAbaqus.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAbaqus.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAda.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAda.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAPDL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAPDL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAsm.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAsm.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAsn1.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAsn1.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexASY.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexASY.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAU3.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAU3.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAVE.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAVE.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexAVS.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexAVS.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexBaan.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexBaan.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexBash.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexBash.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexBasic.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexBasic.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexBullant.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexBullant.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCaml.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCaml.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCLW.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCLW.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCmake.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCmake.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCOBOL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCOBOL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCoffeeScript.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCoffeeScript.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexConf.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexConf.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCPP.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCPP.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCrontab.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCrontab.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCsound.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCsound.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexCSS.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexCSS.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexD.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexD.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexECL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexECL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexEiffel.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexEiffel.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexerBase.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexerBase.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexErlang.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexErlang.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexerModule.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexerModule.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexerNoExceptions.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexerNoExceptions.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexerSimple.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexerSimple.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexEScript.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexEScript.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexFlagship.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexFlagship.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexForth.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexForth.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexFortran.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexFortran.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexGAP.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexGAP.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexGui4Cli.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexGui4Cli.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexHaskell.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexHaskell.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexHTML.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexHTML.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexInno.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexInno.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexKix.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexKix.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexLisp.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexLisp.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexLout.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexLout.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexLua.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexLua.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMagik.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMagik.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMarkdown.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMarkdown.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMatlab.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMatlab.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMetapost.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMetapost.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMMIXAL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMMIXAL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexModula.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexModula.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMPT.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMPT.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMSSQL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMSSQL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexMySQL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexMySQL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexNimrod.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexNimrod.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexNsis.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexNsis.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexOpal.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexOpal.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexOthers.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexOthers.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPascal.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPascal.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPB.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPB.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPerl.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPerl.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPerl6.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPerl6.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPLM.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPLM.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPOV.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPOV.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPowerPro.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPowerPro.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPowerShell.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPowerShell.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexProgress.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexProgress.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPS.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPS.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexPython.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexPython.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexR.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexR.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexRebol.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexRebol.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexRuby.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexRuby.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexScriptol.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexScriptol.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexSmalltalk.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexSmalltalk.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexSML.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexSML.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexSorcus.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexSorcus.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexSpecman.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexSpecman.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexSpice.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexSpice.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexSQL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexSQL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexTACL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexTACL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexTADS3.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexTADS3.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexTAL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexTAL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexTCL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexTCL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexTCMD.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexTCMD.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexTeX.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexTeX.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexTxt2tags.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexTxt2tags.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexVB.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexVB.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexVerilog.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexVerilog.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexVHDL.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexVHDL.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LexYAML.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LexYAML.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_LineMarker.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/LineMarker.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_PerLine.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/PerLine.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_PositionCache.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/PositionCache.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_PropSetSimple.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/PropSetSimple.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_RESearch.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/RESearch.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_RunStyles.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/RunStyles.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_ScintillaBase.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/ScintillaBase.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Selection.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Selection.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_Style.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/Style.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_StyleContext.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/StyleContext.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_UniConversion.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/UniConversion.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_ViewStyle.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/ViewStyle.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_WordList.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/WordList.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilla/src/scintilladll_XPM.o -O2 -Wall -Wno-missing-braces -Wno-char-subscripts -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla/src/XPM.cxx
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilladll_PlatWX.o -O2 -Wall  -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/PlatWX.cpp
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilladll_ScintillaWX.o -O2 -Wall  -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/ScintillaWX.cpp
+clang -c -mmacosx-version-min=10.9 -arch x86_64  -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -DWXBUILDING -DSCI_LEXER -DLINK_LEXERS -DWXUSINGDLL -DWXMAKINGDLL_STC -D__WX__ -o wx-scintilla/src/scintilladll_scintilla.o -O2 -Wall  -Iwx-scintilla/include -Iwx-scintilla/src/scintilla/include -Iwx-scintilla/src/scintilla/src -Iwx-scintilla/src -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  wx-scintilla/src/scintilla.cpp
+clang++ -mmacosx-version-min=10.9 -arch x86_64   -headerpad_max_install_names -shared -framework CoreFoundation  -o blib/arch/auto/Wx/Scintilla/libwx_macu_scintilla-3.0.2.dylib wx-scintilla/src/scintilla/src/scintilladll_Accessor.o wx-scintilla/src/scintilla/src/scintilladll_AutoComplete.o wx-scintilla/src/scintilla/src/scintilladll_CallTip.o wx-scintilla/src/scintilla/src/scintilladll_Catalogue.o wx-scintilla/src/scintilla/src/scintilladll_CellBuffer.o wx-scintilla/src/scintilla/src/scintilladll_CharacterSet.o wx-scintilla/src/scintilla/src/scintilladll_CharClassify.o wx-scintilla/src/scintilla/src/scintilladll_ContractionState.o wx-scintilla/src/scintilla/src/scintilladll_Decoration.o wx-scintilla/src/scintilla/src/scintilladll_Document.o wx-scintilla/src/scintilla/src/scintilladll_Editor.o wx-scintilla/src/scintilla/src/scintilladll_ExternalLexer.o wx-scintilla/src/scintilla/src/scintilladll_Indicator.o wx-scintilla/src/scintilla/src/scintilladll_KeyMap.o wx-scintilla/src/scintilla/src/scintilladll_LexA68k.o wx-scintilla/src/scintilla/src/scintilladll_LexAbaqus.o wx-scintilla/src/scintilla/src/scintilladll_LexAda.o wx-scintilla/src/scintilla/src/scintilladll_LexAPDL.o wx-scintilla/src/scintilla/src/scintilladll_LexAsm.o wx-scintilla/src/scintilla/src/scintilladll_LexAsn1.o wx-scintilla/src/scintilla/src/scintilladll_LexASY.o wx-scintilla/src/scintilla/src/scintilladll_LexAU3.o wx-scintilla/src/scintilla/src/scintilladll_LexAVE.o wx-scintilla/src/scintilla/src/scintilladll_LexAVS.o wx-scintilla/src/scintilla/src/scintilladll_LexBaan.o wx-scintilla/src/scintilla/src/scintilladll_LexBash.o wx-scintilla/src/scintilla/src/scintilladll_LexBasic.o wx-scintilla/src/scintilla/src/scintilladll_LexBullant.o wx-scintilla/src/scintilla/src/scintilladll_LexCaml.o wx-scintilla/src/scintilla/src/scintilladll_LexCLW.o wx-scintilla/src/scintilla/src/scintilladll_LexCmake.o wx-scintilla/src/scintilla/src/scintilladll_LexCOBOL.o wx-scintilla/src/scintilla/src/scintilladll_LexCoffeeScript.o wx-scintilla/src/scintilla/src/scintilladll_LexConf.o wx-scintilla/src/scintilla/src/scintilladll_LexCPP.o wx-scintilla/src/scintilla/src/scintilladll_LexCrontab.o wx-scintilla/src/scintilla/src/scintilladll_LexCsound.o wx-scintilla/src/scintilla/src/scintilladll_LexCSS.o wx-scintilla/src/scintilla/src/scintilladll_LexD.o wx-scintilla/src/scintilla/src/scintilladll_LexECL.o wx-scintilla/src/scintilla/src/scintilladll_LexEiffel.o wx-scintilla/src/scintilla/src/scintilladll_LexerBase.o wx-scintilla/src/scintilla/src/scintilladll_LexErlang.o wx-scintilla/src/scintilla/src/scintilladll_LexerModule.o wx-scintilla/src/scintilla/src/scintilladll_LexerNoExceptions.o wx-scintilla/src/scintilla/src/scintilladll_LexerSimple.o wx-scintilla/src/scintilla/src/scintilladll_LexEScript.o wx-scintilla/src/scintilla/src/scintilladll_LexFlagship.o wx-scintilla/src/scintilla/src/scintilladll_LexForth.o wx-scintilla/src/scintilla/src/scintilladll_LexFortran.o wx-scintilla/src/scintilla/src/scintilladll_LexGAP.o wx-scintilla/src/scintilla/src/scintilladll_LexGui4Cli.o wx-scintilla/src/scintilla/src/scintilladll_LexHaskell.o wx-scintilla/src/scintilla/src/scintilladll_LexHTML.o wx-scintilla/src/scintilla/src/scintilladll_LexInno.o wx-scintilla/src/scintilla/src/scintilladll_LexKix.o wx-scintilla/src/scintilla/src/scintilladll_LexLisp.o wx-scintilla/src/scintilla/src/scintilladll_LexLout.o wx-scintilla/src/scintilla/src/scintilladll_LexLua.o wx-scintilla/src/scintilla/src/scintilladll_LexMagik.o wx-scintilla/src/scintilla/src/scintilladll_LexMarkdown.o wx-scintilla/src/scintilla/src/scintilladll_LexMatlab.o wx-scintilla/src/scintilla/src/scintilladll_LexMetapost.o wx-scintilla/src/scintilla/src/scintilladll_LexMMIXAL.o wx-scintilla/src/scintilla/src/scintilladll_LexModula.o wx-scintilla/src/scintilla/src/scintilladll_LexMPT.o wx-scintilla/src/scintilla/src/scintilladll_LexMSSQL.o wx-scintilla/src/scintilla/src/scintilladll_LexMySQL.o wx-scintilla/src/scintilla/src/scintilladll_LexNimrod.o wx-scintilla/src/scintilla/src/scintilladll_LexNsis.o wx-scintilla/src/scintilla/src/scintilladll_LexOpal.o wx-scintilla/src/scintilla/src/scintilladll_LexOthers.o wx-scintilla/src/scintilla/src/scintilladll_LexPascal.o wx-scintilla/src/scintilla/src/scintilladll_LexPB.o wx-scintilla/src/scintilla/src/scintilladll_LexPerl.o wx-scintilla/src/scintilla/src/scintilladll_LexPerl6.o wx-scintilla/src/scintilla/src/scintilladll_LexPLM.o wx-scintilla/src/scintilla/src/scintilladll_LexPOV.o wx-scintilla/src/scintilla/src/scintilladll_LexPowerPro.o wx-scintilla/src/scintilla/src/scintilladll_LexPowerShell.o wx-scintilla/src/scintilla/src/scintilladll_LexProgress.o wx-scintilla/src/scintilla/src/scintilladll_LexPS.o wx-scintilla/src/scintilla/src/scintilladll_LexPython.o wx-scintilla/src/scintilla/src/scintilladll_LexR.o wx-scintilla/src/scintilla/src/scintilladll_LexRebol.o wx-scintilla/src/scintilla/src/scintilladll_LexRuby.o wx-scintilla/src/scintilla/src/scintilladll_LexScriptol.o wx-scintilla/src/scintilla/src/scintilladll_LexSmalltalk.o wx-scintilla/src/scintilla/src/scintilladll_LexSML.o wx-scintilla/src/scintilla/src/scintilladll_LexSorcus.o wx-scintilla/src/scintilla/src/scintilladll_LexSpecman.o wx-scintilla/src/scintilla/src/scintilladll_LexSpice.o wx-scintilla/src/scintilla/src/scintilladll_LexSQL.o wx-scintilla/src/scintilla/src/scintilladll_LexTACL.o wx-scintilla/src/scintilla/src/scintilladll_LexTADS3.o wx-scintilla/src/scintilla/src/scintilladll_LexTAL.o wx-scintilla/src/scintilla/src/scintilladll_LexTCL.o wx-scintilla/src/scintilla/src/scintilladll_LexTCMD.o wx-scintilla/src/scintilla/src/scintilladll_LexTeX.o wx-scintilla/src/scintilla/src/scintilladll_LexTxt2tags.o wx-scintilla/src/scintilla/src/scintilladll_LexVB.o wx-scintilla/src/scintilla/src/scintilladll_LexVerilog.o wx-scintilla/src/scintilla/src/scintilladll_LexVHDL.o wx-scintilla/src/scintilla/src/scintilladll_LexYAML.o wx-scintilla/src/scintilla/src/scintilladll_LineMarker.o wx-scintilla/src/scintilla/src/scintilladll_PerLine.o wx-scintilla/src/scintilla/src/scintilladll_PositionCache.o wx-scintilla/src/scintilla/src/scintilladll_PropSetSimple.o wx-scintilla/src/scintilla/src/scintilladll_RESearch.o wx-scintilla/src/scintilla/src/scintilladll_RunStyles.o wx-scintilla/src/scintilla/src/scintilladll_ScintillaBase.o wx-scintilla/src/scintilla/src/scintilladll_Selection.o wx-scintilla/src/scintilla/src/scintilladll_Style.o wx-scintilla/src/scintilla/src/scintilladll_StyleContext.o wx-scintilla/src/scintilla/src/scintilladll_UniConversion.o wx-scintilla/src/scintilla/src/scintilladll_ViewStyle.o wx-scintilla/src/scintilla/src/scintilladll_WordList.o wx-scintilla/src/scintilla/src/scintilladll_XPM.o wx-scintilla/src/scintilladll_PlatWX.o wx-scintilla/src/scintilladll_ScintillaWX.o wx-scintilla/src/scintilladll_scintilla.o  -L/usr/local/Cellar/wxmac/3.0.2/lib -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0
+    Scintilla.xs -> Scintilla.c
+clang++ -mmacosx-version-min=10.9 -arch x86_64   -c -I. -I/Library/Perl/5.16/darwin-thread-multi-2level/Wx -I/System/Library/Perl/5.16/darwin-thread-multi-2level/CORE -I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0 -I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0  -UWX_PRECOMP  -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -DWXUSINGDLL -D__WXMAC__ -D__WXOSX__ -D__WXOSX_COCOA__  -arch x86_64 -g -pipe -fno-common -DPERL_DARWIN -fno-strict-aliasing -fstack-protector -I/usr/local/include -Os -DWXPL_EXT -DVERSION=\"0.39\" -DXS_VERSION=\"0.39\" Scintilla.c
+clang++ -mmacosx-version-min=10.9 -arch x86_64   -headerpad_max_install_names -arch x86_64 -bundle -undefined dynamic_lookup -L/usr/local/lib -fstack-protector -L. -s -o blib/arch/auto/Wx/Scintilla/Scintilla.bundle Scintilla.o blib/arch/auto/Wx/Scintilla/libwx_macu_scintilla-3.0.2.dylib  -L/usr/local/Cellar/wxmac/3.0.2/lib -lwx_osx_cocoau_core-3.0 -lwx_baseu-3.0 
+  AZAWAWI/Wx-Scintilla-0.39.tar.gz
+  ./Build -- NOT OK
+Running Build test
+  Can't test without successful make
+Running Build install
+  Make had returned bad status, install seems impossible
+Running install for module 'Debug::Client'
+Running make for B/BO/BOWTIE/Debug-Client-0.29.tar.gz
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/B/BO/BOWTIE/Debug-Client-0.29.tar.gz
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/B/BO/BOWTIE/CHECKSUMS
+Checksum for /Users/bertrand/.cpan/sources/authors/id/B/BO/BOWTIE/Debug-Client-0.29.tar.gz ok
+
+  CPAN.pm: Building B/BO/BOWTIE/Debug-Client-0.29.tar.gz
+
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Debug::Client
+Writing MYMETA.yml and MYMETA.json
+---- Unsatisfied dependencies detected during ----
+----      BOWTIE/Debug-Client-0.29.tar.gz     ----
+    Term::ReadLine::Gnu [requires]
+Running make test
+  Delayed until after prerequisites
+Running make install
+  Delayed until after prerequisites
+Running install for module 'Term::ReadLine::Gnu'
+Running make for H/HA/HAYASHI/Term-ReadLine-Gnu-1.26.tar.gz
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.26.tar.gz
+Fetching with LWP:
+http://mirror.23media.de/cpan/authors/id/H/HA/HAYASHI/CHECKSUMS
+Checksum for /Users/bertrand/.cpan/sources/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.26.tar.gz ok
+
+  CPAN.pm: Building H/HA/HAYASHI/Term-ReadLine-Gnu-1.26.tar.gz
+
+Found `/usr/lib/libtermcap.dylib'.
+cc  -arch x86_64 -arch i386 -g -pipe -fno-common -DPERL_DARWIN -fno-strict-aliasing -fstack-protector -I/usr/local/include -DHAVE_STRING_H rlver.c -o rlver   -arch x86_64 -arch i386 -fstack-protector -L/usr/local/lib -lreadline -ltermcap
+Warning: No success on command[/usr/bin/perl Makefile.PL]
+  HAYASHI/Term-ReadLine-Gnu-1.26.tar.gz
+  /usr/bin/perl Makefile.PL -- NOT OK
+Running make test
+  Make had some problems, won't test
+Running make install
+  Make had some problems, won't install
+Running make for B/BO/BOWTIE/Debug-Client-0.29.tar.gz
+  Has already been unwrapped into directory /Users/bertrand/.cpan/build/Debug-Client-0.29-meW2I8
+
+  CPAN.pm: Building B/BO/BOWTIE/Debug-Client-0.29.tar.gz
+
+Warning: Prerequisite 'Term::ReadLine::Gnu => 1.2' for 'BOWTIE/Debug-Client-0.29.tar.gz' failed when processing 'HAYASHI/Term-ReadLine-Gnu-1.26.tar.gz' with 'writemakefile => NO '/usr/bin/perl Makefile.PL' returned status 256'. Continuing, but chances to succeed are limited.
+cp lib/Debug/Client.pm blib/lib/Debug/Client.pm
+Manifying 1 pod document
+  BOWTIE/Debug-Client-0.29.tar.gz
+  /usr/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'inc', 'blib/lib', 'blib/arch')" t/*.t
+Bailout called.  Further testing stopped:  Missing dependencies
+  BOWTIE/Debug-Client-0.29.tar.gz
+one dependency not OK (Term::ReadLine::Gnu); additionally test harness failed
+  /usr/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports BOWTIE/Debug-Client-0.29.tar.gz
+Running make install
+  make test had returned bad status, won't install without force
+Running make for P/PL/PLAVEN/Padre-1.00.tar.gz
+  Has already been unwrapped into directory /Users/bertrand/.cpan/build/Padre-1.00-D49HhE
+
+  CPAN.pm: Building P/PL/PLAVEN/Padre-1.00.tar.gz
+
+Warning: Prerequisite 'Wx::Scintilla => 0.39' for 'PLAVEN/Padre-1.00.tar.gz' failed when processing 'AZAWAWI/Wx-Scintilla-0.39.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Debug::Client => 0.29' for 'PLAVEN/Padre-1.00.tar.gz' failed when processing 'BOWTIE/Debug-Client-0.29.tar.gz' with 'make_test => NO one dependency not OK (Term::ReadLine::Gnu); additionally test harness failed'. Continuing, but chances to succeed are limited.
+blib/lib/auto/share/dist/Padre/locale -> blib/lib/auto/share/dist/Padre/locale
+blib/lib/auto/share/dist/Padre/locale/ko.po -> blib/lib/auto/share/dist/Padre/locale/ko.mo
+blib/lib/auto/share/dist/Padre/locale/no.po -> blib/lib/auto/share/dist/Padre/locale/no.mo
+blib/lib/auto/share/dist/Padre/locale/cz.po -> blib/lib/auto/share/dist/Padre/locale/cz.mo
+blib/lib/auto/share/dist/Padre/locale/hu.po -> blib/lib/auto/share/dist/Padre/locale/hu.mo
+blib/lib/auto/share/dist/Padre/locale/he.po -> blib/lib/auto/share/dist/Padre/locale/he.mo
+blib/lib/auto/share/dist/Padre/locale/de.po -> blib/lib/auto/share/dist/Padre/locale/de.mo
+blib/lib/auto/share/dist/Padre/locale/nl-nl.po -> blib/lib/auto/share/dist/Padre/locale/nl-nl.mo
+blib/lib/auto/share/dist/Padre/locale/it-it.po -> blib/lib/auto/share/dist/Padre/locale/it-it.mo
+blib/lib/auto/share/dist/Padre/locale/es-es.po -> blib/lib/auto/share/dist/Padre/locale/es-es.mo
+blib/lib/auto/share/dist/Padre/locale/pl.po -> blib/lib/auto/share/dist/Padre/locale/pl.mo
+blib/lib/auto/share/dist/Padre/locale/fa.po -> blib/lib/auto/share/dist/Padre/locale/fa.mo
+blib/lib/auto/share/dist/Padre/locale/zh-tw.po -> blib/lib/auto/share/dist/Padre/locale/zh-tw.mo
+blib/lib/auto/share/dist/Padre/locale/ar.po -> blib/lib/auto/share/dist/Padre/locale/ar.mo
+blib/lib/auto/share/dist/Padre/locale/zh-cn.po -> blib/lib/auto/share/dist/Padre/locale/zh-cn.mo
+blib/lib/auto/share/dist/Padre/locale/ru.po -> blib/lib/auto/share/dist/Padre/locale/ru.mo
+blib/lib/auto/share/dist/Padre/locale/fr.po -> blib/lib/auto/share/dist/Padre/locale/fr.mo
+blib/lib/auto/share/dist/Padre/locale/tr.po -> blib/lib/auto/share/dist/Padre/locale/tr.mo
+blib/lib/auto/share/dist/Padre/locale/ja.po -> blib/lib/auto/share/dist/Padre/locale/ja.mo
+blib/lib/auto/share/dist/Padre/locale/pt-br.po -> blib/lib/auto/share/dist/Padre/locale/pt-br.mo
+-blib/lib/auto/share/dist/Padre/locale/messages.pot
+cp lib/Padre/Wx/Scintilla.pm blib/lib/Padre/Wx/Scintilla.pm
+cp lib/Padre/Wx/Menu/Debug.pm blib/lib/Padre/Wx/Menu/Debug.pm
+cp lib/Padre/Wx/Progress.pm blib/lib/Padre/Wx/Progress.pm
+cp lib/Padre/Wx/FBP/Syntax.pm blib/lib/Padre/Wx/FBP/Syntax.pm
+cp lib/Padre/Wx/Editor/Lock.pm blib/lib/Padre/Wx/Editor/Lock.pm
+cp lib/Padre/DB/Timeline.pm blib/lib/Padre/DB/Timeline.pm
+cp lib/Padre/Wx/Main.pm blib/lib/Padre/Wx/Main.pm
+cp lib/Padre/Plugin/My.pm blib/lib/Padre/Plugin/My.pm
+cp lib/Padre/Current.pm blib/lib/Padre/Current.pm
+cp lib/Padre/Wx/Menu/Edit.pm blib/lib/Padre/Wx/Menu/Edit.pm
+cp lib/Padre/Locale/Format.pm blib/lib/Padre/Locale/Format.pm
+cp lib/Padre/Wx/Syntax.pm blib/lib/Padre/Wx/Syntax.pm
+cp lib/Padre/Wx/ComboBox/FindTerm.pm blib/lib/Padre/Wx/ComboBox/FindTerm.pm
+cp lib/Padre/Wx/Diff2.pm blib/lib/Padre/Wx/Diff2.pm
+cp lib/Padre/Wx/FBP/CPAN.pm blib/lib/Padre/Wx/FBP/CPAN.pm
+cp lib/Padre/Wx/Dialog/ReplaceInFiles.pm blib/lib/Padre/Wx/Dialog/ReplaceInFiles.pm
+cp lib/Padre/Delta.pm blib/lib/Padre/Delta.pm
+cp lib/Padre/Wx/Panel/Breakpoints.pm blib/lib/Padre/Wx/Panel/Breakpoints.pm
+cp lib/Padre/Wx/FBP/TaskList.pm blib/lib/Padre/Wx/FBP/TaskList.pm
+cp lib/Padre/Plugin/PopularityContest/Ping.pm blib/lib/Padre/Plugin/PopularityContest/Ping.pm
+cp lib/Padre/Wx/Choice/Theme.pm blib/lib/Padre/Wx/Choice/Theme.pm
+cp lib/Padre/Document/Patch.pm blib/lib/Padre/Document/Patch.pm
+cp lib/Padre/Locale/T.pm blib/lib/Padre/Locale/T.pm
+cp lib/Padre/Role/Task.pm blib/lib/Padre/Role/Task.pm
+cp lib/Padre/Wx/Dialog/Bookmarks.pm blib/lib/Padre/Wx/Dialog/Bookmarks.pm
+cp lib/Padre/Wx/Dialog/SessionManager2.pm blib/lib/Padre/Wx/Dialog/SessionManager2.pm
+cp lib/Padre/Document/Perl/QuickFix/StrictWarnings.pm blib/lib/Padre/Document/Perl/QuickFix/StrictWarnings.pm
+cp lib/Padre/Wx/Dialog/Preferences.pm blib/lib/Padre/Wx/Dialog/Preferences.pm
+cp lib/Padre/Document/Ruby.pm blib/lib/Padre/Document/Ruby.pm
+cp lib/Padre/Wx/Editor/Menu.pm blib/lib/Padre/Wx/Editor/Menu.pm
+cp lib/Padre/Task/Pod2HTML.pm blib/lib/Padre/Task/Pod2HTML.pm
+cp lib/Padre/Constant.pm blib/lib/Padre/Constant.pm
+cp lib/Padre/Wx/Directory/Browse.pm blib/lib/Padre/Wx/Directory/Browse.pm
+cp lib/Padre/Task/PPI.pm blib/lib/Padre/Task/PPI.pm
+cp lib/Padre/Portable.pm blib/lib/Padre/Portable.pm
+cp lib/Padre/Wx/Role/Conduit.pm blib/lib/Padre/Wx/Role/Conduit.pm
+cp lib/Padre/Wx/FBP/Breakpoints.pm blib/lib/Padre/Wx/FBP/Breakpoints.pm
+cp lib/Padre/Wx/Directory/TreeCtrl.pm blib/lib/Padre/Wx/Directory/TreeCtrl.pm
+cp lib/Padre/Wx/Output.pm blib/lib/Padre/Wx/Output.pm
+cp lib/Padre/Wx/FBP/Text.pm blib/lib/Padre/Wx/FBP/Text.pm
+cp lib/Padre/Wx/Dialog/About.pm blib/lib/Padre/Wx/Dialog/About.pm
+cp lib/Padre/Wx/Menu/Help.pm blib/lib/Padre/Wx/Menu/Help.pm
+cp lib/Padre/Document/Python/FunctionList.pm blib/lib/Padre/Document/Python/FunctionList.pm
+cp lib/Padre/Wx/Menu/Window.pm blib/lib/Padre/Wx/Menu/Window.pm
+cp lib/Padre.pm blib/lib/Padre.pm
+cp lib/Padre/Wx/CPAN/Listview.pm blib/lib/Padre/Wx/CPAN/Listview.pm
+cp lib/Padre/Wx/Menu.pm blib/lib/Padre/Wx/Menu.pm
+cp lib/Padre/Wx/Panel/DebugOutput.pm blib/lib/Padre/Wx/Panel/DebugOutput.pm
+cp lib/Padre/Wx/ToolBar.pm blib/lib/Padre/Wx/ToolBar.pm
+cp lib/Padre/Wx/FBP/Outline.pm blib/lib/Padre/Wx/FBP/Outline.pm
+cp lib/Padre/Wx/Dialog/DebugOptions.pm blib/lib/Padre/Wx/Dialog/DebugOptions.pm
+cp lib/Padre/Wx/Dialog/Document.pm blib/lib/Padre/Wx/Dialog/Document.pm
+cp lib/Padre/Pod2HTML.pm blib/lib/Padre/Pod2HTML.pm
+cp lib/Padre/Wx/Role/Context.pm blib/lib/Padre/Wx/Role/Context.pm
+cp lib/Padre/ServerManager.pm blib/lib/Padre/ServerManager.pm
+cp lib/Padre/Config/Project.pm blib/lib/Padre/Config/Project.pm
+cp lib/Padre/Wx/Dialog/PluginManager.pm blib/lib/Padre/Wx/Dialog/PluginManager.pm
+cp lib/Padre/Wx/Dialog/SLOC.pm blib/lib/Padre/Wx/Dialog/SLOC.pm
+cp lib/Padre/Config/Patch.pm blib/lib/Padre/Config/Patch.pm
+cp lib/Padre/Wx/FBP/FindInFiles.pm blib/lib/Padre/Wx/FBP/FindInFiles.pm
+cp lib/Padre/Wx/Browser.pm blib/lib/Padre/Wx/Browser.pm
+cp lib/Padre/Wx/Printout.pm blib/lib/Padre/Wx/Printout.pm
+cp lib/Padre/Task/IntroduceTemporaryVariable.pm blib/lib/Padre/Task/IntroduceTemporaryVariable.pm
+cp lib/Padre/Wx/Dialog/Replace.pm blib/lib/Padre/Wx/Dialog/Replace.pm
+cp lib/Padre/Cache.pm blib/lib/Padre/Cache.pm
+cp lib/Padre/DB/LastPositionInFile.pm blib/lib/Padre/DB/LastPositionInFile.pm
+cp lib/Padre/Wx/Dialog/Shortcut.pm blib/lib/Padre/Wx/Dialog/Shortcut.pm
+cp lib/Padre/DB/SessionFile.pm blib/lib/Padre/DB/SessionFile.pm
+cp lib/Padre/Wx/Role/Main.pm blib/lib/Padre/Wx/Role/Main.pm
+cp lib/Padre/Wx/Dialog/SessionSave.pm blib/lib/Padre/Wx/Dialog/SessionSave.pm
+cp lib/Padre/Task/OpenResource.pm blib/lib/Padre/Task/OpenResource.pm
+cp lib/Padre/Wx/Dialog/Goto.pm blib/lib/Padre/Wx/Dialog/Goto.pm
+cp lib/Padre/Wx/FBP/SLOC.pm blib/lib/Padre/Wx/FBP/SLOC.pm
+cp lib/Padre/Wx/CPAN.pm blib/lib/Padre/Wx/CPAN.pm
+cp lib/Padre/Wx/Dialog/RegexEditor.pm blib/lib/Padre/Wx/Dialog/RegexEditor.pm
+cp lib/Padre/Wx/Dialog/OpenResource.pm blib/lib/Padre/Wx/Dialog/OpenResource.pm
+cp lib/Padre/Wx/AuiManager.pm blib/lib/Padre/Wx/AuiManager.pm
+cp lib/Padre/Project/Perl.pm blib/lib/Padre/Project/Perl.pm
+cp lib/Padre/QuickFix.pm blib/lib/Padre/QuickFix.pm
+cp lib/Padre/Document/Perl/QuickFix.pm blib/lib/Padre/Document/Perl/QuickFix.pm
+cp lib/Padre/ProjectManager.pm blib/lib/Padre/ProjectManager.pm
+cp lib/Padre/Task/CPAN.pm blib/lib/Padre/Task/CPAN.pm
+cp lib/Padre/Task/LexicalReplaceVariable.pm blib/lib/Padre/Task/LexicalReplaceVariable.pm
+cp lib/Padre/Wx/FBP/Sync.pm blib/lib/Padre/Wx/FBP/Sync.pm
+cp lib/Padre/Startup.pm blib/lib/Padre/Startup.pm
+cp lib/Padre/PluginBuilder.pm blib/lib/Padre/PluginBuilder.pm
+cp lib/Padre/Document/Java.pm blib/lib/Padre/Document/Java.pm
+cp lib/Padre/Wx/Menubar.pm blib/lib/Padre/Wx/Menubar.pm
+cp lib/Padre/Wx/SelectionLock.pm blib/lib/Padre/Wx/SelectionLock.pm
+cp lib/Padre/Wx/Directory.pm blib/lib/Padre/Wx/Directory.pm
+cp lib/Padre/Wx/Role/View.pm blib/lib/Padre/Wx/Role/View.pm
+cp lib/Padre/Task/Syntax.pm blib/lib/Padre/Task/Syntax.pm
+cp lib/Padre/DB/RecentlyUsed.pm blib/lib/Padre/DB/RecentlyUsed.pm
+cp lib/Padre/Wx/FBP/Snippet.pm blib/lib/Padre/Wx/FBP/Snippet.pm
+cp lib/Padre/Wx/Panel/FindFast.pm blib/lib/Padre/Wx/Panel/FindFast.pm
+cp lib/Padre/Wx/FBP/About.pm blib/lib/Padre/Wx/FBP/About.pm
+cp lib/Padre/Wx/Dialog/Positions.pm blib/lib/Padre/Wx/Dialog/Positions.pm
+cp lib/Padre/Project/Perl/Temp.pm blib/lib/Padre/Project/Perl/Temp.pm
+cp lib/Padre/Command.pm blib/lib/Padre/Command.pm
+cp lib/Padre/Task/FindVariableDeclaration.pm blib/lib/Padre/Task/FindVariableDeclaration.pm
+cp lib/Padre/Wx/Dialog/FindInFiles.pm blib/lib/Padre/Wx/Dialog/FindInFiles.pm
+cp lib/Padre/DB/History.pm blib/lib/Padre/DB/History.pm
+cp lib/Padre/Project/Perl/MI.pm blib/lib/Padre/Project/Perl/MI.pm
+cp lib/Padre/Document/Perl/PPILexer.pm blib/lib/Padre/Document/Perl/PPILexer.pm
+cp lib/Padre/DB/Bookmark.pm blib/lib/Padre/DB/Bookmark.pm
+cp lib/Padre/Browser/POD.pm blib/lib/Padre/Browser/POD.pm
+cp lib/Padre/Browser.pm blib/lib/Padre/Browser.pm
+cp lib/Padre/Util/FileBrowser.pm blib/lib/Padre/Util/FileBrowser.pm
+cp lib/Padre/Wx/Menu/Tools.pm blib/lib/Padre/Wx/Menu/Tools.pm
+cp lib/Padre/Wx/Dialog/SessionManager.pm blib/lib/Padre/Wx/Dialog/SessionManager.pm
+cp lib/Padre/Wx/FBP/Debugger.pm blib/lib/Padre/Wx/FBP/Debugger.pm
+cp lib/Padre/Wx/FBP/Bookmarks.pm blib/lib/Padre/Wx/FBP/Bookmarks.pm
+cp lib/Padre/Wx/Dialog/WindowList.pm blib/lib/Padre/Wx/Dialog/WindowList.pm
+cp lib/Padre/TaskHandle.pm blib/lib/Padre/TaskHandle.pm
+cp lib/Padre/Wx/Left.pm blib/lib/Padre/Wx/Left.pm
+cp lib/Padre/Wx/FBP/ReplaceInFiles.pm blib/lib/Padre/Wx/FBP/ReplaceInFiles.pm
+cp lib/Padre/Wx/Role/Idle.pm blib/lib/Padre/Wx/Role/Idle.pm
+cp lib/Padre/DB/Session.pm blib/lib/Padre/DB/Session.pm
+cp lib/Padre/Wx/ReplaceInFiles.pm blib/lib/Padre/Wx/ReplaceInFiles.pm
+cp lib/Padre/Wx/FBP/ModuleStarter.pm blib/lib/Padre/Wx/FBP/ModuleStarter.pm
+cp lib/Padre/Wx/Dialog/RefactorSelectFunction.pm blib/lib/Padre/Wx/Dialog/RefactorSelectFunction.pm
+cp lib/Padre/SVN.pm blib/lib/Padre/SVN.pm
+cp lib/Padre/Wx/Theme.pm blib/lib/Padre/Wx/Theme.pm
+cp lib/Padre/Wx/Menu/View.pm blib/lib/Padre/Wx/Menu/View.pm
+cp lib/Padre/Document/Perl/Starter.pm blib/lib/Padre/Document/Perl/Starter.pm
+cp lib/Padre/Manual/Hacking.pod blib/lib/Padre/Manual/Hacking.pod
+cp lib/Padre/Logger.pm blib/lib/Padre/Logger.pm
+cp lib/Padre/Wx/Dialog/Special.pm blib/lib/Padre/Wx/Dialog/Special.pm
+cp lib/Padre/Lock.pm blib/lib/Padre/Lock.pm
+cp lib/Padre/Wx/Action.pm blib/lib/Padre/Wx/Action.pm
+cp lib/Padre/Document/Perl/Outline.pm blib/lib/Padre/Document/Perl/Outline.pm
+cp lib/Padre/DB/Snippets.pod blib/lib/Padre/DB/Snippets.pod
+cp lib/Padre/Task/RecentFiles.pm blib/lib/Padre/Task/RecentFiles.pm
+cp lib/Padre/Task/SLOC.pm blib/lib/Padre/Task/SLOC.pm
+cp lib/Padre/Task/Browser.pm blib/lib/Padre/Task/Browser.pm
+cp lib/Padre/Wx/TreeCtrl.pm blib/lib/Padre/Wx/TreeCtrl.pm
+cp lib/Padre/Wx/Menu/Refactor.pm blib/lib/Padre/Wx/Menu/Refactor.pm
+cp lib/Padre/Wx/FBP/FoundInFiles.pm blib/lib/Padre/Wx/FBP/FoundInFiles.pm
+cp lib/Padre/Wx.pm blib/lib/Padre/Wx.pm
+cp lib/Padre/Wx/VCS.pm blib/lib/Padre/Wx/VCS.pm
+cp lib/Padre/Task/FindUnmatchedBrace.pm blib/lib/Padre/Task/FindUnmatchedBrace.pm
+cp lib/Padre/File/Local.pm blib/lib/Padre/File/Local.pm
+cp lib/Padre/Task/FunctionList.pm blib/lib/Padre/Task/FunctionList.pm
+cp lib/Padre/Locker.pm blib/lib/Padre/Locker.pm
+cp lib/Padre/Wx/TextEntryDialog/History.pm blib/lib/Padre/Wx/TextEntryDialog/History.pm
+cp lib/Padre/Wx/Constant.pm blib/lib/Padre/Wx/Constant.pm
+cp lib/Padre/Wx/Util.pm blib/lib/Padre/Wx/Util.pm
+cp lib/Padre/PluginManager.pm blib/lib/Padre/PluginManager.pm
+cp lib/Padre/Document/Perl/Syntax.pm blib/lib/Padre/Document/Perl/Syntax.pm
+cp lib/Padre/DB.pm blib/lib/Padre/DB.pm
+cp lib/Padre/Wx/Dialog/Sync.pm blib/lib/Padre/Wx/Dialog/Sync.pm
+cp lib/Padre/Wx/ActionLibrary.pm blib/lib/Padre/Wx/ActionLibrary.pm
+cp lib/Padre/Task/Run.pm blib/lib/Padre/Task/Run.pm
+cp lib/Padre/Wx/FBP/Replace.pm blib/lib/Padre/Wx/FBP/Replace.pm
+cp lib/Padre/Wx/Dialog/Warning.pm blib/lib/Padre/Wx/Dialog/Warning.pm
+cp lib/Padre/Wx/Dialog/Form.pm blib/lib/Padre/Wx/Dialog/Form.pm
+cp lib/Padre/Wx/FBP/Document.pm blib/lib/Padre/Wx/FBP/Document.pm
+cp lib/Padre/Role/PubSub.pm blib/lib/Padre/Role/PubSub.pm
+cp lib/Padre/Document/Perl.pm blib/lib/Padre/Document/Perl.pm
+cp lib/Padre/MIME.pm blib/lib/Padre/MIME.pm
+cp lib/Padre/Autosave.pm blib/lib/Padre/Autosave.pm
+cp lib/Padre/Wx/Dialog/ModuleStarter.pm blib/lib/Padre/Wx/Dialog/ModuleStarter.pm
+cp lib/Padre/Wx/FBP/Expression.pm blib/lib/Padre/Wx/FBP/Expression.pm
+cp lib/Padre/Wx/Dialog/OpenURL.pm blib/lib/Padre/Wx/Dialog/OpenURL.pm
+cp lib/Padre/Config/Setting.pm blib/lib/Padre/Config/Setting.pm
+cp lib/Padre/Wx/FBP/Special.pm blib/lib/Padre/Wx/FBP/Special.pm
+cp lib/Padre/PPI/Transform.pm blib/lib/Padre/PPI/Transform.pm
+cp lib/Padre/Wx/Dialog/Text.pm blib/lib/Padre/Wx/Dialog/Text.pm
+cp lib/Padre/Comment.pm blib/lib/Padre/Comment.pm
+cp lib/Padre/Task/LaunchDefaultBrowser.pm blib/lib/Padre/Task/LaunchDefaultBrowser.pm
+cp lib/Padre/Task/BackupUnsaved.pm blib/lib/Padre/Task/BackupUnsaved.pm
+cp lib/Padre/Project.pm blib/lib/Padre/Project.pm
+cp lib/Padre/Wx/FBP/DebugOutput.pm blib/lib/Padre/Wx/FBP/DebugOutput.pm
+cp lib/Padre/Task/Outline.pm blib/lib/Padre/Task/Outline.pm
+cp lib/Padre/Wx/Choice/Files.pm blib/lib/Padre/Wx/Choice/Files.pm
+cp lib/Padre/Wx/Frame/POD.pm blib/lib/Padre/Wx/Frame/POD.pm
+cp lib/Padre/Wx/Style.pm blib/lib/Padre/Wx/Style.pm
+cp lib/Padre/Wx/Dialog/Expression.pm blib/lib/Padre/Wx/Dialog/Expression.pm
+cp lib/Padre/Task/Addition.pm blib/lib/Padre/Task/Addition.pm
+cp lib/Padre/Wx/Directory/Search.pm blib/lib/Padre/Wx/Directory/Search.pm
+cp lib/Padre/Wx/Panel/TaskList.pm blib/lib/Padre/Wx/Panel/TaskList.pm
+cp lib/Padre/Wx/Directory/Path.pm blib/lib/Padre/Wx/Directory/Path.pm
+cp lib/Padre/Util.pm blib/lib/Padre/Util.pm
+cp lib/Padre/Perl.pm blib/lib/Padre/Perl.pm
+cp lib/Padre/Wx/FBP/POD.pm blib/lib/Padre/Wx/FBP/POD.pm
+cp lib/Padre/Wx/Role/Dialog.pm blib/lib/Padre/Wx/Role/Dialog.pm
+cp lib/Padre/Locale.pm blib/lib/Padre/Locale.pm
+cp lib/Padre/Search.pm blib/lib/Padre/Search.pm
+cp lib/Padre/Wx/Role/Timer.pm blib/lib/Padre/Wx/Role/Timer.pm
+cp lib/Padre/Wx/FBP/Diff.pm blib/lib/Padre/Wx/FBP/Diff.pm
+cp lib/Padre/Document.pm blib/lib/Padre/Document.pm
+cp lib/Padre/Util/CommandLine.pm blib/lib/Padre/Util/CommandLine.pm
+cp lib/Padre/Wx/Right.pm blib/lib/Padre/Wx/Right.pm
+cp lib/Padre/Document/Ruby/FunctionList.pm blib/lib/Padre/Document/Ruby/FunctionList.pm
+cp lib/Padre/Document/Perl/Lexer.pm blib/lib/Padre/Document/Perl/Lexer.pm
+cp lib/Padre/Browser/PseudoPerldoc.pm blib/lib/Padre/Browser/PseudoPerldoc.pm
+cp lib/Padre/Task/LWP.pm blib/lib/Padre/Task/LWP.pm
+cp lib/Padre/TaskManager.pm blib/lib/Padre/TaskManager.pm
+cp lib/Padre/TaskQueue.pm blib/lib/Padre/TaskQueue.pm
+cp lib/Padre/Wx/Menu/Search.pm blib/lib/Padre/Wx/Menu/Search.pm
+cp lib/Padre/Sync.pm blib/lib/Padre/Sync.pm
+cp lib/Padre/Transform.pm blib/lib/Padre/Transform.pm
+cp lib/Padre/Wx/Dialog/QuickMenuAccess.pm blib/lib/Padre/Wx/Dialog/QuickMenuAccess.pm
+cp lib/Padre/Task/Eval.pm blib/lib/Padre/Task/Eval.pm
+cp lib/Padre/Wx/Role/Config.pm blib/lib/Padre/Wx/Role/Config.pm
+cp lib/Padre/File/HTTP.pm blib/lib/Padre/File/HTTP.pm
+cp lib/Padre/Browser/Document.pm blib/lib/Padre/Browser/Document.pm
+cp lib/Padre/Wx/Dialog/PerlFilter.pm blib/lib/Padre/Wx/Dialog/PerlFilter.pm
+cp lib/Padre/Document/Perl/Starter/Style.pm blib/lib/Padre/Document/Perl/Starter/Style.pm
+cp lib/Padre/Document/Perl/QuickFix/IncludeModule.pm blib/lib/Padre/Document/Perl/QuickFix/IncludeModule.pm
+cp lib/Padre/Desktop.pm blib/lib/Padre/Desktop.pm
+cp lib/Padre/DB/HostConfig.pm blib/lib/Padre/DB/HostConfig.pm
+cp lib/Padre/Wx/FBP/WhereFrom.pm blib/lib/Padre/Wx/FBP/WhereFrom.pm
+cp lib/Padre/Wx/FBP/Find.pm blib/lib/Padre/Wx/FBP/Find.pm
+cp lib/Padre/Wx/FunctionList.pm blib/lib/Padre/Wx/FunctionList.pm
+cp lib/Padre/Task/Transform.pm blib/lib/Padre/Task/Transform.pm
+cp lib/Padre/Wx/Panel/Debugger.pm blib/lib/Padre/Wx/Panel/Debugger.pm
+cp lib/Padre/TaskWorker.pm blib/lib/Padre/TaskWorker.pm
+cp lib/Padre/Wx/FBP/FindFast.pm blib/lib/Padre/Wx/FBP/FindFast.pm
+cp lib/Padre/CPAN.pm blib/lib/Padre/CPAN.pm
+cp lib/Padre/Wx/FBP/SessionManager.pm blib/lib/Padre/Wx/FBP/SessionManager.pm
+cp lib/Padre/Wx/Popup.pm blib/lib/Padre/Wx/Popup.pm
+cp lib/Padre/SLOC.pm blib/lib/Padre/SLOC.pm
+cp lib/Padre/Wx/Menu/Run.pm blib/lib/Padre/Wx/Menu/Run.pm
+cp lib/Padre/Config/Apply.pm blib/lib/Padre/Config/Apply.pm
+cp lib/Padre/Wx/HtmlWindow.pm blib/lib/Padre/Wx/HtmlWindow.pm
+cp lib/Padre/Document/Java/FunctionList.pm blib/lib/Padre/Document/Java/FunctionList.pm
+cp lib/Padre/Util/SVN.pm blib/lib/Padre/Util/SVN.pm
+cp lib/Padre/Wx/Command.pm blib/lib/Padre/Wx/Command.pm
+cp lib/Padre/Wx/Dialog/Advanced.pm blib/lib/Padre/Wx/Dialog/Advanced.pm
+cp lib/Padre/Wx/Dialog/Snippet.pm blib/lib/Padre/Wx/Dialog/Snippet.pm
+cp lib/Padre/PPI.pm blib/lib/Padre/PPI.pm
+cp lib/Padre/Document/Python.pm blib/lib/Padre/Document/Python.pm
+cp lib/Padre/Task/Diff.pm blib/lib/Padre/Task/Diff.pm
+cp lib/Padre/Wx/App.pm blib/lib/Padre/Wx/App.pm
+cp lib/Padre/Wx/FBP/Patch.pm blib/lib/Padre/Wx/FBP/Patch.pm
+cp lib/Padre/Wx/Outline.pm blib/lib/Padre/Wx/Outline.pm
+cp lib/Padre/Project/Perl/MB.pm blib/lib/Padre/Project/Perl/MB.pm
+cp lib/Padre/Wx/Nth.pm blib/lib/Padre/Wx/Nth.pm
+cp lib/Padre/Document/Perl/Autocomplete.pm blib/lib/Padre/Document/Perl/Autocomplete.pm
+cp lib/Padre/Config/Human.pm blib/lib/Padre/Config/Human.pm
+cp lib/Padre/Wx/Display.pm blib/lib/Padre/Wx/Display.pm
+cp lib/Padre/Wx/Diff.pm blib/lib/Padre/Wx/Diff.pm
+cp lib/Padre/Wx/FBP/Preferences.pm blib/lib/Padre/Wx/FBP/Preferences.pm
+cp lib/Padre/Wx/TaskList.pm blib/lib/Padre/Wx/TaskList.pm
+cp lib/Padre/Wx/StatusBar.pm blib/lib/Padre/Wx/StatusBar.pm
+cp lib/Padre/Wx/Menu/File.pm blib/lib/Padre/Wx/Menu/File.pm
+cp lib/Padre/Wx/Dialog/Patch.pm blib/lib/Padre/Wx/Dialog/Patch.pm
+cp lib/Padre/Task/File.pm blib/lib/Padre/Task/File.pm
+cp lib/Padre/Project/Perl/EUMM.pm blib/lib/Padre/Project/Perl/EUMM.pm
+cp lib/Padre/File/FTP.pm blib/lib/Padre/File/FTP.pm
+cp lib/Padre/Config/Host.pm blib/lib/Padre/Config/Host.pm
+cp lib/Padre/Document/Perl/Help.pm blib/lib/Padre/Document/Perl/Help.pm
+cp lib/Padre/Wx/Frame/HTML.pm blib/lib/Padre/Wx/Frame/HTML.pm
+cp lib/Padre/Wx/Dialog/WhereFrom.pm blib/lib/Padre/Wx/Dialog/WhereFrom.pm
+cp lib/Padre/PluginHandle.pm blib/lib/Padre/PluginHandle.pm
+cp lib/Padre/Wx/Editor.pm blib/lib/Padre/Wx/Editor.pm
+cp lib/Padre/Wx/FBP/PluginManager.pm blib/lib/Padre/Wx/FBP/PluginManager.pm
+cp lib/Padre/Document/Perl/FunctionList.pm blib/lib/Padre/Document/Perl/FunctionList.pm
+cp lib/Padre/Test.pm blib/lib/Padre/Test.pm
+cp lib/Padre/Wx/Dialog/Find.pm blib/lib/Padre/Wx/Dialog/Find.pm
+cp lib/Padre/Wx/ComboBox/History.pm blib/lib/Padre/Wx/ComboBox/History.pm
+cp lib/Padre/Wx/Menu/Perl.pm blib/lib/Padre/Wx/Menu/Perl.pm
+cp lib/Padre/Wx/FileDropTarget.pm blib/lib/Padre/Wx/FileDropTarget.pm
+cp lib/Padre/Plugin.pm blib/lib/Padre/Plugin.pm
+cp lib/Padre/Task/VCS.pm blib/lib/Padre/Task/VCS.pm
+cp lib/Padre/Plugin/PopularityContest.pm blib/lib/Padre/Plugin/PopularityContest.pm
+cp lib/Padre/Unload.pm blib/lib/Padre/Unload.pm
+cp lib/Padre/Project/Temp.pm blib/lib/Padre/Project/Temp.pm
+cp lib/Padre/PPI/EndifyPod.pm blib/lib/Padre/PPI/EndifyPod.pm
+cp lib/Padre/Document/CSharp/FunctionList.pm blib/lib/Padre/Document/CSharp/FunctionList.pm
+cp lib/Padre/Wx/Notebook.pm blib/lib/Padre/Wx/Notebook.pm
+cp lib/Padre/Project/Null.pm blib/lib/Padre/Project/Null.pm
+cp lib/Padre/DB/Plugin.pod blib/lib/Padre/DB/Plugin.pod
+cp lib/Padre/Wx/Bottom.pm blib/lib/Padre/Wx/Bottom.pm
+cp lib/Padre/Task.pm blib/lib/Padre/Task.pm
+cp lib/Padre/Manual.pod blib/lib/Padre/Manual.pod
+cp lib/Padre/Document/CSharp.pm blib/lib/Padre/Document/CSharp.pm
+cp lib/Padre/Template.pm blib/lib/Padre/Template.pm
+cp lib/Padre/PPI/UpdateCopyright.pm blib/lib/Padre/PPI/UpdateCopyright.pm
+cp lib/Padre/Wx/Frame/Null.pm blib/lib/Padre/Wx/Frame/Null.pm
+cp lib/Padre/Wx/Dialog/HelpSearch.pm blib/lib/Padre/Wx/Dialog/HelpSearch.pm
+cp lib/Padre/Wx/Dialog/Diff.pm blib/lib/Padre/Wx/Dialog/Diff.pm
+cp lib/Padre/Wx/Dialog/FilterTool.pm blib/lib/Padre/Wx/Dialog/FilterTool.pm
+cp lib/Padre/Wx/ListView.pm blib/lib/Padre/Wx/ListView.pm
+cp lib/Padre/Plugin/Devel.pm blib/lib/Padre/Plugin/Devel.pm
+cp lib/Padre/Wx/Panel/FoundInFiles.pm blib/lib/Padre/Wx/Panel/FoundInFiles.pm
+cp lib/Padre/Breakpoints.pm blib/lib/Padre/Breakpoints.pm
+cp lib/Padre/File.pm blib/lib/Padre/File.pm
+cp lib/Padre/Wx/ScrollLock.pm blib/lib/Padre/Wx/ScrollLock.pm
+cp lib/Padre/Config.pm blib/lib/Padre/Config.pm
+cp lib/Padre/Task/ReplaceInFiles.pm blib/lib/Padre/Task/ReplaceInFiles.pm
+cp lib/Padre/Feature.pm blib/lib/Padre/Feature.pm
+cp lib/Padre/Wx/ActionQueue.pm blib/lib/Padre/Wx/ActionQueue.pm
+cp lib/Padre/Wx/FBP/DebugOptions.pm blib/lib/Padre/Wx/FBP/DebugOptions.pm
+cp lib/Padre/Task/FindInFiles.pm blib/lib/Padre/Task/FindInFiles.pm
+cp lib/Padre/Document/Perl/Beginner.pm blib/lib/Padre/Document/Perl/Beginner.pm
+cp lib/Padre/Help.pm blib/lib/Padre/Help.pm
+cp lib/Padre/Project/Perl/DZ.pm blib/lib/Padre/Project/Perl/DZ.pm
+cp lib/Padre/Wx/FBP/VCS.pm blib/lib/Padre/Wx/FBP/VCS.pm
+cp lib/Padre/Wx/Icon.pm blib/lib/Padre/Wx/Icon.pm
+cp lib/Padre/Util/Win32.pm blib/lib/Padre/Util/Win32.pm
+make[1]: Nothing to be done for `all'.
+cp script/padre blib/script/padre
+"/usr/bin/perl" "-Iinc" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/padre
+Manifying 119 pod documents
+  PLAVEN/Padre-1.00.tar.gz
+  /usr/bin/make -- OK
+Running make test
+blib/lib/auto/share/dist/Padre/locale -> blib/lib/auto/share/dist/Padre/locale
+blib/lib/auto/share/dist/Padre/locale/ko.po -> blib/lib/auto/share/dist/Padre/locale/ko.mo
+blib/lib/auto/share/dist/Padre/locale/no.po -> blib/lib/auto/share/dist/Padre/locale/no.mo
+blib/lib/auto/share/dist/Padre/locale/cz.po -> blib/lib/auto/share/dist/Padre/locale/cz.mo
+blib/lib/auto/share/dist/Padre/locale/hu.po -> blib/lib/auto/share/dist/Padre/locale/hu.mo
+blib/lib/auto/share/dist/Padre/locale/he.po -> blib/lib/auto/share/dist/Padre/locale/he.mo
+blib/lib/auto/share/dist/Padre/locale/de.po -> blib/lib/auto/share/dist/Padre/locale/de.mo
+blib/lib/auto/share/dist/Padre/locale/nl-nl.po -> blib/lib/auto/share/dist/Padre/locale/nl-nl.mo
+blib/lib/auto/share/dist/Padre/locale/it-it.po -> blib/lib/auto/share/dist/Padre/locale/it-it.mo
+blib/lib/auto/share/dist/Padre/locale/es-es.po -> blib/lib/auto/share/dist/Padre/locale/es-es.mo
+blib/lib/auto/share/dist/Padre/locale/pl.po -> blib/lib/auto/share/dist/Padre/locale/pl.mo
+blib/lib/auto/share/dist/Padre/locale/fa.po -> blib/lib/auto/share/dist/Padre/locale/fa.mo
+blib/lib/auto/share/dist/Padre/locale/zh-tw.po -> blib/lib/auto/share/dist/Padre/locale/zh-tw.mo
+blib/lib/auto/share/dist/Padre/locale/ar.po -> blib/lib/auto/share/dist/Padre/locale/ar.mo
+blib/lib/auto/share/dist/Padre/locale/zh-cn.po -> blib/lib/auto/share/dist/Padre/locale/zh-cn.mo
+blib/lib/auto/share/dist/Padre/locale/ru.po -> blib/lib/auto/share/dist/Padre/locale/ru.mo
+blib/lib/auto/share/dist/Padre/locale/fr.po -> blib/lib/auto/share/dist/Padre/locale/fr.mo
+blib/lib/auto/share/dist/Padre/locale/tr.po -> blib/lib/auto/share/dist/Padre/locale/tr.mo
+blib/lib/auto/share/dist/Padre/locale/ja.po -> blib/lib/auto/share/dist/Padre/locale/ja.mo
+blib/lib/auto/share/dist/Padre/locale/pt-br.po -> blib/lib/auto/share/dist/Padre/locale/pt-br.mo
+-blib/lib/auto/share/dist/Padre/locale/messages.pot
+make[1]: Nothing to be done for `all'.
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'inc', 'blib/lib', 'blib/arch')" t/*.t t/perl/*.t t/python/*.t t/ruby/*.t t/java/*.t t/csharp/*.t
+t/01_compile.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/37 subtests 
+t/02_new.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 61/62 subtests 
+t/03_db.t .................. ok
+t/04_config.t .............. ok
+t/05_project.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 14/16 subtests 
+t/06_utils.t ............... ok
+t/07_version.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/4 subtests 
+t/08_style.t ............... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 19/21 subtests 
+t/09_search.t .............. ok
+t/10_delta.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 7/14 subtests 
+t/11_svn.t ................. skipped: Not in an SVN checkout
+t/12_mime.t ................ ok
+t/13_findinfiles.t ......... ok
+t/14_warnings.t ............ ok
+t/15_locale.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/7 subtests 
+t/16_locale_format.t ....... ok
+t/17_messages.t ............ ok
+t/18_newline.t ............. ok
+t/19_search.t .............. ok
+t/20_comment.t ............. ok
+t/21_sloc.t ................ ok
+t/31_task_queue.t .......... ok
+t/32_task_worker.t ......... ok
+t/33_task_chain.t .......... ok
+t/34_task_master.t ......... ok
+t/35_task_handle.t ......... ok
+t/36_task_eval.t ........... ok
+t/37_task_signal.t ......... ok
+t/38_task_manager.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 16/16 subtests 
+t/39_task_nothreads.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 15/15 subtests 
+t/40_display.t ............. ok
+t/41_editor.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 27/28 subtests 
+t/42_document.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+All 1 subtests passed 
+t/43_frame_html.t .......... ok
+t/50_browser.t ............. skipped: Cannot run as root
+t/61_directory_path.t ...... ok
+t/74_history_combobox.t .... ok
+t/75_autocomplete.t ........ 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 11/12 subtests 
+t/76_preferences.t ......... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 9/10 subtests 
+t/82_plugin_manager.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 28/29 subtests 
+t/83_autosave.t ............ ok
+t/85_commandline.t ......... ok
+t/90_autocomplete.t ........ ok
+t/91_vi.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 15/16 subtests 
+t/92_padre_file.t .......... ok
+t/93_padre_filename_win.t .. ok
+t/94_padre_file_remote.t ... ok
+t/95_edit_patch.t .......... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 25/27 subtests 
+t/96_help_about.t .......... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 7/9 subtests 
+t/97_debug_debugger.t ...... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 54/55 subtests 
+t/98_debug_breakpoints.t ... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 20/22 subtests 
+t/99_debug_debugoutput.t ... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 15/17 subtests 
+t/csharp/functionlist.t .... ok
+t/java/functionlist.t ...... ok
+t/perl/functionlist.t ...... ok
+t/perl/general.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 39/40 subtests 
+t/perl/project.t ........... ok
+t/perl/project_temp.t ...... ok
+t/perl/starter.t ........... ok
+t/perl/syntax.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 112/112 subtests 
+t/python/functionlist.t .... ok
+t/ruby/functionlist.t ...... ok
+
+Test Summary Report
+-------------------
+t/01_compile.t           (Wstat: 512 Tests: 37 Failed: 2)
+  Failed tests:  14, 36
+  Non-zero exit status: 2
+t/02_new.t               (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 62 tests but ran 1.
+t/05_project.t           (Wstat: 512 Tests: 2 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 2.
+t/07_version.t           (Wstat: 512 Tests: 4 Failed: 2)
+  Failed tests:  3-4
+  Non-zero exit status: 2
+t/08_style.t             (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 21 tests but ran 3.
+t/10_delta.t             (Wstat: 512 Tests: 7 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 14 tests but ran 7.
+t/15_locale.t            (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 7 tests but ran 1.
+t/38_task_manager.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 0.
+t/39_task_nothreads.t    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 15 tests but ran 0.
+t/41_editor.t            (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 28 tests but ran 1.
+t/42_document.t          (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/75_autocomplete.t      (Wstat: 65280 Tests: 2 Failed: 1)
+  Failed test:  1
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 12 tests but ran 2.
+t/76_preferences.t       (Wstat: 65280 Tests: 3 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 10 tests but ran 3.
+t/82_plugin_manager.t    (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 29 tests but ran 1.
+t/91_vi.t                (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 1.
+t/95_edit_patch.t        (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 27 tests but ran 3.
+t/96_help_about.t        (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 9 tests but ran 3.
+t/97_debug_debugger.t    (Wstat: 65280 Tests: 4 Failed: 3)
+  Failed tests:  1-3
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 55 tests but ran 4.
+t/98_debug_breakpoints.t (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 22 tests but ran 3.
+t/99_debug_debugoutput.t (Wstat: 65280 Tests: 3 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 17 tests but ran 3.
+t/perl/general.t         (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 40 tests but ran 1.
+t/perl/syntax.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 112 tests but ran 0.
+Files=62, Tests=2016, 32 wallclock secs ( 0.35 usr  0.13 sys + 14.82 cusr  2.79 csys = 18.09 CPU)
+Result: FAIL
+  PLAVEN/Padre-1.00.tar.gz
+2 dependencies missing (Debug::Client,Wx::Scintilla); additionally test harness failed
+  /usr/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports PLAVEN/Padre-1.00.tar.gz
+Running make install
+  make test had returned bad status, won't install without force
+Could not read metadata file. Falling back to other methods to determine prerequisites

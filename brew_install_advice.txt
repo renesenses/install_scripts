@@ -1,0 +1,72 @@
+% brew install gettext
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.19.4.mavericks.bottle.tar.gz
+######################################################################## 100,0%
+==> Pouring gettext-0.19.4.mavericks.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Mac OS X provides similar software, and installing this software in
+parallel can cause all kinds of trouble.
+
+OS X provides the BSD gettext library and some software gets confused if both are in the library path.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/gettext/lib
+    CPPFLAGS: -I/usr/local/opt/gettext/include
+
+==> Summary
+🍺  /usr/local/Cellar/gettext/0.19.4: 1920 files, 21M
+
+% brew install libffi
+==> Downloading https://homebrew.bintray.com/bottles/libffi-3.0.13.mavericks.bottle.tar.gz
+Already downloaded: /Library/Caches/Homebrew/libffi-3.0.13.mavericks.bottle.tar.gz
+==> Pouring libffi-3.0.13.mavericks.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+Some formulae require a newer version of libffi.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/libffi/lib
+
+==> Summary
+🍺  /usr/local/Cellar/libffi/3.0.13: 13 files, 388K
+
+% brew install ncurses
+==> Installing ncurses from homebrew/homebrew-dupes
+==> Downloading http://ftpmirror.gnu.org/ncurses/ncurses-5.9.tar.gz
+######################################################################## 100,0%
+==> Downloading https://trac.macports.org/export/103963/trunk/dports/devel/ncurses/files/constructor_types.diff
+######################################################################## 100,0%
+==> Patching
+patching file c++/cursesf.h
+patching file c++/cursesm.h
+patching file Ada95/configure
+patching file configure
+==> ./configure --prefix=/usr/local/Cellar/ncurses/5.9 --enable-pc-files --enable-sigwinch --enable-symlinks --enable-widec --mandir=/usr/local/Cellar/ncurses/5.9/share/man --wit
+==> make
+==> make install
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/ncurses/lib
+    CPPFLAGS: -I/usr/local/opt/ncurses/include
+
+==> Summary
+🍺  /usr/local/Cellar/ncurses/5.9: 1786 files, 19M, built in 107 seconds
