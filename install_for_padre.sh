@@ -1,88 +1,88 @@
 #!/bin/sh
 # Requirements for perl dev and cpan
+# perlbrew with a 32 bits perl 
+# cpanm installed
 
-cd ~/GIT_REPO/install_scripts
-
-sudo cpan -i Algorithm::Diff
-sudo cpan -i App::cpanminus
-sudo cpan -i B::Deparse
-sudo cpan -i Capture::Tiny
-sudo cpan -i CGI
-sudo cpan -i Class::Adapter
-sudo cpan -i Class::Inspector
-sudo cpan -i Class::XSAccessor
-sudo cpan -i Cwd
-sudo cpan -i Data::Dumper
-sudo cpan -i DBD::SQLite
-sudo cpan -i DBI
-sudo cpan -i Debug::Client
-sudo cpan -i Devel::Dumpvar
-sudo cpan -i Devel::Refactor
-sudo cpan -i Encode
-sudo cpan -i ExtUtils::MakeMaker
-sudo cpan -i ExtUtils::Manifest
-sudo cpan -i File::Basename
-sudo cpan -i File::Glob
-sudo cpan -i File::Copy::Recursive
-sudo cpan -i File::Find::Rule
-sudo cpan -i File::HomeDir
-sudo cpan -i File::Path
-sudo cpan -i File::Remove
-sudo cpan -i File::ShareDir
-sudo cpan -i File::Spec
-sudo cpan -i File::Spec::Functions
-sudo cpan -i File::Temp
-sudo cpan -i File::Which
-sudo cpan -i File::pushd
-sudo cpan -i FindBin
-sudo cpan -i Getopt::Long
-sudo cpan -i HTML::Entities
-sudo cpan -i HTML::Parser
-sudo cpan -i IO::Socket
-sudo cpan -i IO::String
-sudo cpan -i IPC::Run
-sudo cpan -i IPC::Open2
-sudo cpan -i IPC::Open3
-sudo cpan -i JSON::XS
-sudo cpan -i List::Util
-sudo cpan -i List::MoreUtils
-sudo cpan -i LWP
-sudo cpan -i LWP::UserAgent
-sudo cpan -i Module::Build
-sudo cpan -i Module::CoreList
-sudo cpan -i Module::Manifest
-sudo cpan -i Module::Starter
-sudo cpan -i ORLite
-sudo cpan -i ORLite::Migrate
-sudo cpan -i Params::Util
-sudo cpan -i Parse::ErrorString::Perl
-sudo cpan -i Parse::ExuberantCTags
-sudo cpan -i Pod::Functions
-sudo cpan -i Pod::POM
-sudo cpan -i Pod::Simple
-sudo cpan -i Pod::Simple::XHTML
-sudo cpan -i Pod::Abstract
-sudo cpan -i Pod::Perldoc
-sudo cpan -i POD2::Base
-sudo cpan -i POSIX
-sudo cpan -i PPI
-sudo cpan -i PPIx::EditorTools
-sudo cpan -i PPIx::Regexp
-sudo cpan -i Probe::Perl
-sudo cpan -i Storable
-sudo cpan -i Sort::Versions
-sudo cpan -i Template::Tiny
-sudo cpan -i Term::ReadLine
-sudo cpan -i Text::Balanced
-sudo cpan -i Text::Diff
-sudo cpan -i Text::FindIndent
-sudo cpan -i Time::HiRes
-sudo cpan -i Text::Patch
-sudo cpan -i threads
-sudo cpan -i threads::shared
-sudo cpan -i URI
-sudo cpan -i version
-sudo cpan -i Wx
-sudo cpan -i Wx::Perl::ProcessStream
-sudo cpan -i Wx::Scintilla
-sudo cpan -i YAML::Tiny
+cpanm Algorithm::Diff
+cpanm App::cpanminus
+cpanm B::Deparse
+cpanm Capture::Tiny
+cpanm CGI
+cpanm Class::Adapter
+cpanm Class::Inspector
+cpanm Class::XSAccessor
+cpanm Cwd
+cpanm Data::Dumper
+cpanm DBD::SQLite
+cpanm DBI
+cpanm Debug::Client
+cpanm Devel::Dumpvar
+cpanm Devel::Refactor
+cpanm Encode
+cpanm ExtUtils::MakeMaker
+cpanm ExtUtils::Manifest
+cpanm File::Basename
+cpanm File::Glob
+cpanm File::Copy::Recursive
+cpanm File::Find::Rule
+cpanm File::HomeDir
+cpanm File::Path
+cpanm File::Remove
+cpanm File::ShareDir
+cpanm File::Spec
+cpanm File::Spec::Functions
+cpanm File::Temp
+cpanm File::Which
+cpanm File::pushd
+cpanm FindBin
+cpanm Getopt::Long
+cpanm HTML::Entities
+cpanm HTML::Parser
+cpanm IO::Socket
+cpanm IO::String
+cpanm IPC::Run
+cpanm IPC::Open2
+cpanm IPC::Open3
+cpanm JSON::XS
+cpanm List::Util
+cpanm List::MoreUtils
+cpanm LWP
+cpanm LWP::UserAgent
+cpanm Module::Build
+cpanm Module::CoreList
+cpanm Module::Manifest
+cpanm Module::Starter
+cpanm ORLite
+cpanm ORLite::Migrate
+cpanm Params::Util
+cpanm Parse::ErrorString::Perl
+cpanm Parse::ExuberantCTags
+cpanm Pod::Functions
+cpanm Pod::POM
+cpanm Pod::Simple
+cpanm Pod::Simple::XHTML
+cpanm Pod::Abstract
+cpanm Pod::Perldoc
+cpanm POD2::Base
+cpanm POSIX
+cpanm PPI
+cpanm PPIx::EditorTools
+cpanm PPIx::Regexp
+cpanm Probe::Perl
+cpanm Storable
+cpanm Sort::Versions
+cpanm Template::Tiny
+cpanm Term::ReadLine
+cpanm Text::Balanced
+cpanm Text::Diff
+cpanm Text::FindIndent
+cpanm Time::HiRes
+cpanm Text::Patch
+cpanm threads
+cpanm threads::shared
+cpanm URI
+cpanm version
+cpanm Wx
+cpanm Wx::Perl::ProcessStream
+cpanm Wx::Scintilla
+cpanm YAML::Tiny

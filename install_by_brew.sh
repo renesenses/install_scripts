@@ -7,6 +7,7 @@ brew install autoconf
 brew install automake
 brew install cmake
 brew install curl
+brew install ffmpeg
 brew install freetype
 brew install gettext
 brew install git
@@ -35,5 +36,6 @@ brew install wget
 brew install wxmac
 brew install xmlto
 brew install xz
+
 
 brew install homebrew/dupes/diffutils
